@@ -36,6 +36,7 @@ module.exports.updateToDo = async (req, res) => {
 module.exports.deleteToDo = async (req, res) => {
   try {
     const { _id } = req.body;
+    console.log(_id);
     if (_id === null)
       return res.status(400).json({ error: `Invalid Input` }).end();
 
