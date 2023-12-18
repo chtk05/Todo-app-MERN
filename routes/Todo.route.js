@@ -4,7 +4,7 @@ const {
   addToDo,
   updateToDo,
   deleteToDo,
-} = require("../controllers/ToDo.Controller");
+} = require("../controllers/Todo.controller");
 
 const router = Router();
 
